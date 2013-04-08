@@ -10,3 +10,6 @@ script:
 - bundle install
 - rake rip:repositories
 - rake rip:commits
+notifications:
+  irc:
+    - "irc.freenode.org#parttimelegend"
